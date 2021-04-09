@@ -11,9 +11,9 @@
 
 ## Ejercicio 1: Agencia de Viajes
 
-En este ejercicio puede realizarse una carga de datos en un array (con un usuario administrador) o ver los datos del mismo (con un usuario cliente).
+_En este ejercicio puede realizarse una carga de datos en un array (con un usuario administrador) o ver los datos del mismo (con un usuario cliente).
 Al iniciar el programa se ejecuta la clase app (esta clase fue creada para contener los datos de inicio, visualización, usuarios y para mantener limpia la clase principal) la cual nos pedirá que seleccionemos el tipo de usuario que somos y luego nos pedirá que ingresemos los datos del usuario.
-Dependiendo el tipo de usuario con el que hayamos ingresado apareceran las opciones correspondientes:
+Dependiendo el tipo de usuario con el que hayamos ingresado apareceran las opciones correspondientes:_
 
 * Si ingresé con un usuario administrador podré agregar un nuevo alojamiento de tipo cabaña o de tipo hotel. En el caso de ser de tipo cabaña podré agregar los datos de alojamiento (codigo, ciudad, barrio, estrellas, cantidadDePersonas y tv) y además los datos de tipo cabaña (precioPorDia, cantidadDeHabitaciones, cantidadDeBanios), estos datos se guardaran en el array de alojamientos el cual se encuentra en la clase Agencia y en el caso de ser de tipo hotel podré agregar los datos de alojamiento (codigo, ciudad, barrio, estrellas, cantidadDePersonas y tv) y además los datos de tipo hotel (precioPorPersona), estos datos se guardaran en el array de alojamientos el cual se encuentra en la clase Agencia. A continuación el programa revisará que no haya un duplicado de código (entero de la clase Alojamiento) dentro del array y en caso de ser así aparecerá un mensaje confirmando el ingreso de datos en el array. Cuando haya finalizado el proceso se cerrará la sesión y podrá volver a iniciar sesión con un usuario cliente o administrador.
 
