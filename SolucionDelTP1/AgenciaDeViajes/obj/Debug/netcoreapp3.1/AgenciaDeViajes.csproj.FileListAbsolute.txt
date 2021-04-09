@@ -1,0 +1,13 @@
+C:\Users\PC 345\source\repos\TrabajoPractico1\SolucionDelTP1\AgenciaDeViajes\obj\Debug\netcoreapp3.1\AgenciaDeViajes.csprojAssemblyReference.cache
+C:\Users\PC 345\source\repos\TrabajoPractico1\SolucionDelTP1\AgenciaDeViajes\obj\Debug\netcoreapp3.1\AgenciaDeViajes.AssemblyInfoInputs.cache
+C:\Users\PC 345\source\repos\TrabajoPractico1\SolucionDelTP1\AgenciaDeViajes\obj\Debug\netcoreapp3.1\AgenciaDeViajes.AssemblyInfo.cs
+C:\Users\PC 345\source\repos\TrabajoPractico1\SolucionDelTP1\AgenciaDeViajes\obj\Debug\netcoreapp3.1\AgenciaDeViajes.csproj.CoreCompileInputs.cache
+C:\Users\PC 345\source\repos\TrabajoPractico1\SolucionDelTP1\AgenciaDeViajes\bin\Debug\netcoreapp3.1\AgenciaDeViajes.exe
+C:\Users\PC 345\source\repos\TrabajoPractico1\SolucionDelTP1\AgenciaDeViajes\bin\Debug\netcoreapp3.1\AgenciaDeViajes.deps.json
+C:\Users\PC 345\source\repos\TrabajoPractico1\SolucionDelTP1\AgenciaDeViajes\bin\Debug\netcoreapp3.1\AgenciaDeViajes.runtimeconfig.json
+C:\Users\PC 345\source\repos\TrabajoPractico1\SolucionDelTP1\AgenciaDeViajes\bin\Debug\netcoreapp3.1\AgenciaDeViajes.runtimeconfig.dev.json
+C:\Users\PC 345\source\repos\TrabajoPractico1\SolucionDelTP1\AgenciaDeViajes\bin\Debug\netcoreapp3.1\AgenciaDeViajes.dll
+C:\Users\PC 345\source\repos\TrabajoPractico1\SolucionDelTP1\AgenciaDeViajes\bin\Debug\netcoreapp3.1\AgenciaDeViajes.pdb
+C:\Users\PC 345\source\repos\TrabajoPractico1\SolucionDelTP1\AgenciaDeViajes\obj\Debug\netcoreapp3.1\AgenciaDeViajes.dll
+C:\Users\PC 345\source\repos\TrabajoPractico1\SolucionDelTP1\AgenciaDeViajes\obj\Debug\netcoreapp3.1\AgenciaDeViajes.pdb
+C:\Users\PC 345\source\repos\TrabajoPractico1\SolucionDelTP1\AgenciaDeViajes\obj\Debug\netcoreapp3.1\AgenciaDeViajes.genruntimeconfig.cache
