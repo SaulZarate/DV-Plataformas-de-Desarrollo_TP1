@@ -20,6 +20,10 @@ Dependiendo el tipo de usuario con el que hayamos ingresado apareceran las opcio
 
 ## Ejercicio 2: Centro Cultural 📖
 
+* En este ejercicio se desarrolla un centro cultural, se pueden ingresar artistas, obras y elegir las obras y los artistas en exposicion. 
+Se pueden ingresar los datos de los artistas: nombre, nacionalidad, fecha de nacimiento y fecha de fallecimiento, en la clase artistasExposicion esta la funcionalidad de agregar artistas a la exposicion, tiene el control de agregar los artistas y las obras la clase Centro Cultural, ya que es la que toma las decisiones sobre las exposiciones, ademas se puede consultar lo siguiente: la cantidad de artistas, si el artista de dicha obra esta ingresado o no, si la expo esta llena, si hay artistas, recuperar una artista segun el nombre, recuperar artistas segun su nacionalidad.
+
+* Las obras se administran de la siguiente manera, esta la clase ObrasExposicion donde se exponen las obras, la clase obra que es un clase generica heredada por la clase cuadro y la clase escultura, la clase obra tiene los siguientes datos de las obras: código, nombre, nombre artista, fecha de cración, fecha de ingreso (Las fechas piden un tipo DateTime para no tener que hacer una clase nueva). La clase cuadro hereda a obra y pide ademas la altura y la base del cuadro, ademas hay una clase llamada cuadro prestado donde se ingresan los cuadros que tenemos pero que pertenecen a otra galeria, esta clase pide fecha de devolucion y el nombre de la galeria. La clase escultura hereda a obra y pide peso y volumen.
 
 ## Integrantes ✒️
 

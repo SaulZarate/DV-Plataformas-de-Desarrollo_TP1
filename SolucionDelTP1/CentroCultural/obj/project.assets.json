@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\PC 345\\.nuget\\packages\\": {}
+    "C:\\Users\\eze_p\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC 345\\source\\repos\\TrabajoPractico1\\SolucionDelTP1\\CentroCultural\\CentroCultural.csproj",
-      "projectName": "CentroCultural",
-      "projectPath": "C:\\Users\\PC 345\\source\\repos\\TrabajoPractico1\\SolucionDelTP1\\CentroCultural\\CentroCultural.csproj",
-      "packagesPath": "C:\\Users\\PC 345\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC 345\\source\\repos\\TrabajoPractico1\\SolucionDelTP1\\CentroCultural\\obj\\",
+      "projectUniqueName": "E:\\Eze\\Analista de Sistemas DaVinci\\4to Cuatrimestre\\Plataformas de Desarrollo\\tp1\\CentroCultural\\ConsoleApp1\\TPExposiciones.csproj",
+      "projectName": "TPExposiciones",
+      "projectPath": "E:\\Eze\\Analista de Sistemas DaVinci\\4to Cuatrimestre\\Plataformas de Desarrollo\\tp1\\CentroCultural\\ConsoleApp1\\TPExposiciones.csproj",
+      "packagesPath": "C:\\Users\\eze_p\\.nuget\\packages\\",
+      "outputPath": "E:\\Eze\\Analista de Sistemas DaVinci\\4to Cuatrimestre\\Plataformas de Desarrollo\\tp1\\CentroCultural\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\PC 345\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\eze_p\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
