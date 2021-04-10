@@ -1,0 +1,13 @@
+C:\Users\PC 345\source\repos\TrabajoPractico1\SolucionDelTP1\CentroCultural\bin\Debug\netcoreapp3.1\CentroCultural.exe
+C:\Users\PC 345\source\repos\TrabajoPractico1\SolucionDelTP1\CentroCultural\bin\Debug\netcoreapp3.1\CentroCultural.deps.json
+C:\Users\PC 345\source\repos\TrabajoPractico1\SolucionDelTP1\CentroCultural\bin\Debug\netcoreapp3.1\CentroCultural.runtimeconfig.json
+C:\Users\PC 345\source\repos\TrabajoPractico1\SolucionDelTP1\CentroCultural\bin\Debug\netcoreapp3.1\CentroCultural.runtimeconfig.dev.json
+C:\Users\PC 345\source\repos\TrabajoPractico1\SolucionDelTP1\CentroCultural\bin\Debug\netcoreapp3.1\CentroCultural.dll
+C:\Users\PC 345\source\repos\TrabajoPractico1\SolucionDelTP1\CentroCultural\bin\Debug\netcoreapp3.1\CentroCultural.pdb
+C:\Users\PC 345\source\repos\TrabajoPractico1\SolucionDelTP1\CentroCultural\obj\Debug\netcoreapp3.1\CentroCultural.csprojAssemblyReference.cache
+C:\Users\PC 345\source\repos\TrabajoPractico1\SolucionDelTP1\CentroCultural\obj\Debug\netcoreapp3.1\CentroCultural.AssemblyInfoInputs.cache
+C:\Users\PC 345\source\repos\TrabajoPractico1\SolucionDelTP1\CentroCultural\obj\Debug\netcoreapp3.1\CentroCultural.AssemblyInfo.cs
+C:\Users\PC 345\source\repos\TrabajoPractico1\SolucionDelTP1\CentroCultural\obj\Debug\netcoreapp3.1\CentroCultural.csproj.CoreCompileInputs.cache
+C:\Users\PC 345\source\repos\TrabajoPractico1\SolucionDelTP1\CentroCultural\obj\Debug\netcoreapp3.1\CentroCultural.dll
+C:\Users\PC 345\source\repos\TrabajoPractico1\SolucionDelTP1\CentroCultural\obj\Debug\netcoreapp3.1\CentroCultural.pdb
+C:\Users\PC 345\source\repos\TrabajoPractico1\SolucionDelTP1\CentroCultural\obj\Debug\netcoreapp3.1\CentroCultural.genruntimeconfig.cache
