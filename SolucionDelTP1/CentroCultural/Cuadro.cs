@@ -8,7 +8,6 @@ namespace CentroCultural
     {
         int baseCuadro;
         int altura;
-
         public Cuadro(int baseCuadro, int altura, int codigo, int anioCreacion, string nombre, string nombreArtista, int anio, int mes, int dia) : base(codigo, anioCreacion, nombre, nombreArtista, anio, mes, dia)
         {
             this.baseCuadro = baseCuadro;

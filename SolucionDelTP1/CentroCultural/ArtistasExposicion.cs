@@ -3,96 +3,60 @@ using System.Collections.Generic;
 
 namespace CentroCultural
 {
-    class ArtistasExposicion
+  class ArtistasExposicion
+  {
+    private List<Artista> artistas;
+
+    public void insertarArtista(Artista artista)
     {
-        Artista[] artistas = new Artista[1];
-
-        public void insertarArtista(Artista artista)
-        {
-            int x;
-            for (x = 0; x > artistas.Length; x++)
-            {
-                if (artistas[x] != null) break;
-            }
-            artistas[x] = artista;
-        }
-
-        public void insertarArtistas(List<Artista> artistas)
-        {
-            int x = this.artistas.Length;
-            foreach (Artista artista in artistas)
-            {
-                this.artistas[x] = artista;
-                x++;
-            }
-        }
-
-        public int cantidadArtistas()
-        {
-            return contarArtistas();
-        }
-
-        public string hayArtistas()
-        {
-            if (contarArtistas() > 0)
-            {
-                return "si";
-            }
-            return "no";
-        }
-
-        public Artista recuperarArtista(string nombre)
-        {
-            Artista artistaRecuperado = null;
-            foreach (Artista art in artistas)
-            {
-                if (art.nombre == nombre)
-                {
-                    artistaRecuperado = art;
-                }
-            }
-            return artistaRecuperado;
-        }
-
-        public bool estaArtista(Obra obrita)
-        {
-            foreach (Artista art in artistas)
-            {
-                if (obrita.nombreArtista == art.nombre)
-                {
-                    return true;
-                }
-            }
-            return false;
-        }
-
-        public string artistaNac(String nac)
-        {
-            Artista[] artistasEncontrados = new Artista[10];
-            int i = 0;
-
-            foreach (Artista arti in artistas)
-            {
-                if (arti.nacionalidad == nac)
-                {
-                    artistasEncontrados[1] = arti;
-                }
-            }
-
-            return artistasEncontrados.ToString();
-        }
-        public int contarArtistas()
-        {
-            int x;
-            for (x = 0; x < artistas.Length; x++)
-            {
-                if (artistas[x] == null)
-                {
-                    return x;
-                }
-            }
-            return artistas.Length;
-        }
-
+      String message;
+      artistas.Add(artista);
+      message = "Se agrego el artista";
+      Console.WriteLine(message);
     }
+
+
+    public int cantidadArtistas()
+    {
+      if (!this.hayArtistas()) return 0;
+      return artistas.Count;
+    }
+
+    public bool estaArtista(Obra obra)
+    {
+      foreach (Artista ar in this.artistas)
+      {
+        if (ar != null)
+        {
+          if (ar.nombre == obra.nombreArtista)
+          {
+            return true;
+          }
+        }
+      }
+
+      return false;
+    }
+
+    public bool estaLlena()
+    {
+      return true;
+    }
+
+    public bool hayArtistas()
+    {
+      return artistas.Count > 0;
+    }
+
+    // public Artista recuperarArtista(string nombre)
+    // {
+
+    // }
+
+    // public List<ArtistasExposicion> artistaNac(String nac)
+    // {
+    //   // Devuelve todos los artistas de una nacionalidad dada
+    // }
+
+  }
 }

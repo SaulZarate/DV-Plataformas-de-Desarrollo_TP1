@@ -3,34 +3,27 @@ using System.Collections.Generic;
 
 namespace CentroCultural
 {
-    class CentroCultural
+  class CentroCultural
+  {
+    String nombre;
+    private ObrasExposicion[] obrasExpo;
+    List<ArtistasExposicion> artistasExpo = new List<ArtistasExposicion>();
+
+    CentroCultural(String nombre)
     {
-        String nombre;
-
-        ObrasExposicion obrasExpo = new ObrasExposicion();
-
-        ArtistasExposicion artistasExpo = new ArtistasExposicion();
-
-        CentroCultural(String nombre)
-        {
-            this.nombre = nombre;
-        }
-
-        void agregarObra(Obra obra)
-        {
-            obrasExpo.insertarObra(obra);
-        }
-        void agregarObras(List<Obra> obras)
-        {
-            obrasExpo.insertarObras(obras);
-        }
-        void agregarArtista(Artista artista)
-        {
-            artistasExpo.insertarArtista(artista);
-        }
-        void agregarArtistas(List<Artista> artistas)
-        {
-            artistasExpo.insertarArtistas(artistas);
-        }
+      this.nombre = nombre;
     }
+
+    public void nombresObrasNacionalidad(string nac) {
+      // Devuelve todos los nombres de las obras de arte que correspondan a artistas de una nacionalidad dada
+
+      // return Vector de Strings
+    }
+
+    public void nombresCuadrosGaleria(string gal) {
+      // Devuelve todos los nombres de los cuadros que pertenecen a una galeria
+
+      // return Vector de Strings
+    }
+  }
 }
