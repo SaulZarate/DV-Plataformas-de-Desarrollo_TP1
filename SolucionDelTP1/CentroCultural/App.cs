@@ -111,8 +111,7 @@ namespace CentroCultural
     }
     public int cantidadArtistas()
     {
-      Console.WriteLine(this.artistasExposicion.cantidadArtistas().ToString());
-      return this.artistasExposicion.cantidadArtistas();
+      return 1;
     }
 
     private void agregarArtista()
@@ -148,25 +147,17 @@ namespace CentroCultural
       Console.WriteLine("Dia Fallecimiento (num)");
       diaFal = Int32.Parse(Console.ReadLine());
 
-      this.artistasExposicion.insertarArtista(new Artista(nombre, nacionalidad, anioNac, mesNac, diaNac, anioFal, mesFal, diaFal));
+
     }
 
     public void obrasPorDefecto()
     {
-      this.obrasExposicion.insertarObra(new Cuadro(30, 60, 1111, 1801, "Cuadro1", "ArtistaCuadro1", 1750, 1, 1));
-      this.obrasExposicion.insertarObra(new Cuadro(20, 70, 2222, 1802, "Cuadro2", "ArtistaCuadro2", 1760, 2, 10));
-      this.obrasExposicion.insertarObra(new Escultura(15, 30, 3333, 1803, "Escultura1", "ArtistaEscultura1", 1770, 3, 15));
-      this.obrasExposicion.insertarObra(new Escultura(10, 20, 4444, 1804, "Escultura2", "ArtistaEscultura2", 1780, 4, 20));
-      this.obrasExposicion.insertarObra(new CuadroPrestado(1990, 4, 2, "Pepito Galery", 15, 25, 5555, 1805, "CuadroPrestado1", "ArtistaCuadroPrestado1", 1790, 5, 25));
+
     }
 
     public void artistasPorDefecto()
     {
-      this.artistasExposicion.insertarArtista(new Artista("ArtistaArtista1", "Argentino", 1800, 1, 1, 1880, 2, 2));
-      this.artistasExposicion.insertarArtista(new Artista("ArtistaArtista2", "Brasil", 1810, 2, 11, 1890, 3, 21));
-      this.artistasExposicion.insertarArtista(new Artista("ArtistaArtista3", "Uruguay", 1820, 3, 12, 1900, 4, 22));
-      this.artistasExposicion.insertarArtista(new Artista("ArtistaArtista4", "Peru", 1830, 4, 13, 1910, 5, 23));
-      this.artistasExposicion.insertarArtista(new Artista("ArtistaArtista5", "Chile", 1840, 5, 14, 1920, 6, 24));
+
     }
   }
 }
