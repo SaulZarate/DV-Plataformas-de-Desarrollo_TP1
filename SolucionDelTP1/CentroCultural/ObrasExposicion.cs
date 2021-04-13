@@ -1,11 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace CentroCultural
 {
     class ObrasExposicion
     {
-        private const int CANTIDAD_MAXIMA_DE_OBRAS_DE_EXPOSICION = 10;
+        private const int CANTIDAD_MAXIMA_DE_OBRAS_DE_EXPOSICION = 12;
 
         private ObraDeArte[] exposicion;
 
@@ -107,8 +106,38 @@ namespace CentroCultural
         }
 
         /* METODOS AGREGADOS */
+        public String ObtenerTodasLasObras()
+        {
+            String mensaje = "";
+            foreach (ObraDeArte obra in this.exposicion)
+            {
+                if(obra != null)
+                {
+                    mensaje += obra.ToString() + "\n\n";
+                }
+            }
+            return mensaje != "" ? mensaje : "\n\n¡ No se encontro ninguna obra de arte !\n\n";
+        }
 
-
+        // Probar si anda
+        public void OrdenarObrasPorAnio()
+        {
+            for (int i = 0; i < this.exposicion.Length; i++)
+            {
+                for (int j = 0; j < this.exposicion.Length -1 ; j++)
+                {
+                    if (this.exposicion[j + 1] != null)
+                    {
+                        if (this.exposicion[j].GetAnioCreacion() > this.exposicion[j + 1].GetAnioCreacion())
+                        {
+                            ObraDeArte aux = this.exposicion[j];
+                            this.exposicion[j + 1] = this.exposicion[j];
+                            this.exposicion[j] = aux;
+                        }
+                    }
+                }
+            }
+        }
 
         /* GETTERS */
         public ObraDeArte[] GetExposicion()

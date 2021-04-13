@@ -48,8 +48,12 @@ namespace CentroCultural
             Console.WriteLine("¿ Esta el artista de la obra " + c1.GetNombreArtista() + " ? " + (artistasDeLaExposicion.RecuperarArtista(c1.GetNombreArtista()) == null ? "No" : "Si") );
             */
 
-            List<String> nombres = new List<string>();
-            Console.WriteLine(nombres.Count == 0);
+            CentroCultural centroCutural = new CentroCultural("Centro de cultura internacional");
+            //Console.WriteLine(centroCutural.ObtenerTodasLasObras());
+            //Console.WriteLine(centroCutural.ObtenerObrasPorNombreDeArtista("Francisco de Medicci"));
+            //Console.WriteLine(centroCutural.ObtenerTodosLosArtistas());
+            //Console.WriteLine(centroCutural.ObtenerTodosLosArtistas());
+
         }
     }
 }

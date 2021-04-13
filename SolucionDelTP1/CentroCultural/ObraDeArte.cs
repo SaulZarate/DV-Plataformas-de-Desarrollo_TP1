@@ -31,11 +31,13 @@ namespace CentroCultural
         {
             return this.nombreArtista;
         }
-
+        public int GetAnioCreacion()
+        {
+            return this.anioCreacion;
+        }
         public override String ToString()
         {
-            return "\nDatos de la Obra de Arte\n" +
-                "\nCodigo: " + this.codigo + 
+            return "\nCodigo: " + this.codigo + 
                 "\nAño creacion: " + this.anioCreacion + 
                 "\nNombre de la Obra: " + this.nombre + 
                 "\nNombre Artista: " + this.nombreArtista + 
