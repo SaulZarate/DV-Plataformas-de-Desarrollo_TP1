@@ -17,6 +17,8 @@ namespace CentroCultural
             this.artistas = new ArtistasExposicion();
             this.artistasPorDefecto();
             this.obrasPorDefecto();
+
+            Console.Clear();
         }
 
         public List<String> NombresObrasNacionalidad(String nacionalidad)
@@ -88,9 +90,9 @@ namespace CentroCultural
         }
         
         // Obtener obras ordenadas por año
-        public String ObtenerObrasOrdenasPorAnio()
+        public String ObtenerObrasOrdenasPorAnioDeCreacion()
         {
-            this.obras.OrdenarObrasPorAnio();
+            this.obras.OrdenarObrasPorAnioDeCreacion();
             return this.obras.ObtenerTodasLasObras();
         }
 
@@ -110,21 +112,24 @@ namespace CentroCultural
         }
         private void obrasPorDefecto()
         {
-            // Cuadros
-            this.agregarObra(new CuadroPrestado(2022,12,11,"galeria3",5,5,457546,908,"El espiedo","Francisco de Medicci",2020,12,25));
-            this.agregarObra(new CuadroPrestado(2025,11,23,"galeria1",5,5,234235,908,"El perro","Leopoldo Fernandez",1989,12,25));
-            this.agregarObra(new CuadroPrestado(2023,12,11,"galeria4",5,5,798965,908,"El caballo","Carlos de Santo",1568,12,25));
-            this.agregarObra(new CuadroPrestado(2023,12,11,"galeria2",5,5,289867,908,"La Mona Lisa","Leonardo Da Vinci",1465,12,25));
-
             // Cuadros Prestados
-            this.agregarObra(new CuadroPrestado(2021,12,21,"galeria1",10,10,986561,2019,"La buitreada","Carlos de Santo",2020,10,28));
+            this.agregarObra(new CuadroPrestado(2022,12,11,"galeria1",5,5,457546,1021,"El espiedo","Francisco de Medicci",2020,12,25));
+            this.agregarObra(new CuadroPrestado(2025,11,23,"galeria1",5,5,234235,1592,"El perro","Leopoldo Fernandez",1989,12,25));
+            this.agregarObra(new CuadroPrestado(2023,12,11,"galeria4",5,5,798965,1431,"El caballo","Carlos de Santo",1568,12,25));
+            this.agregarObra(new CuadroPrestado(2023,12,11,"galeria2",5,5,289867,1225,"La Mona Lisa","Leonardo Da Vinci",1465,12,25));
+            this.agregarObra(new CuadroPrestado(2021,12,21,"galeria3",10,10,986561,2018,"La buitreada","Carlos de Santo",2020,10,28));
             this.agregarObra(new CuadroPrestado(2022,11,29,"galeria4",10,10,783483,2019,"El Chaja","Leonardo Da Vinci",2020,10,10));
-            this.agregarObra(new CuadroPrestado(2023,10,18,"galeria2",10,10,153211,2020,"El despertar","Leopoldo Fernandez",2019,11,30));
+            this.agregarObra(new CuadroPrestado(2023,10,18,"galeria2",10,10,153211,2017,"El despertar","Leopoldo Fernandez",2019,11,30));
+    
+            // Cuadros
+            this.agregarObra(new Cuadro(20, 30, 512488, 1994, "El Amanecer", "Leopoldo Fernandez", 2018, 5, 3));
+            this.agregarObra(new Cuadro(20, 30, 967855, 1959, "Capilla Sixtina", "Leopoldo Fernandez", 2017, 3, 7));
+            this.agregarObra(new Cuadro(20, 30, 115323, 1842, "Nenúfares", "Carlos de Santo", 2018, 1, 28));
 
             // Esculturas
-            this.agregarObra(new Escultura(250,300,642341,2010,"escutura1","Francisco de Medicci",2018,11,24));
-            this.agregarObra(new Escultura(500,250,811433,2012,"escutura2","Leopoldo Fernandez", 2018,11,24));
-            this.agregarObra(new Escultura(100,150,991242,2015,"escutura3","Carlos de Santo", 2018,11,24));
+            this.agregarObra(new Escultura(250,300,642341,2010, "Venus de Milo de jalea", "Francisco de Medicci",2018,11,24));
+            this.agregarObra(new Escultura(500,250,811433,2012, "El rapto de Prosérpina", "Leopoldo Fernandez", 2018,11,24));
+            this.agregarObra(new Escultura(100,150,991242,2015, "Los Maoi", "Carlos de Santo", 2018,11,24));
         }
 
         /* GETTER */

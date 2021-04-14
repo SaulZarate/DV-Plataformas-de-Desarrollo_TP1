@@ -4,7 +4,7 @@ namespace CentroCultural
 {
     class ObrasExposicion
     {
-        private const int CANTIDAD_MAXIMA_DE_OBRAS_DE_EXPOSICION = 12;
+        private const int CANTIDAD_MAXIMA_DE_OBRAS_DE_EXPOSICION = 15;
 
         private ObraDeArte[] exposicion;
 
@@ -86,6 +86,7 @@ namespace CentroCultural
                     exposicion.InsertarObra(obra);
                 }
             }
+            Console.Clear();
 
             return exposicion;
         }
@@ -101,7 +102,7 @@ namespace CentroCultural
                     exposicion.InsertarObra(obra);
                 }
             }
-
+            Console.Clear();
             return exposicion;
         }
 
@@ -111,16 +112,29 @@ namespace CentroCultural
             String mensaje = "";
             foreach (ObraDeArte obra in this.exposicion)
             {
+                
                 if(obra != null)
                 {
-                    mensaje += obra.ToString() + "\n\n";
+                    if (obra is Escultura)
+                    {
+                        mensaje += "---- Datos de la escultura ----";
+                    }
+                    else if (obra is CuadroPrestado)
+                    {
+                        mensaje += "---- Datos del cuadro prestado ----";
+                    }
+                    else if (obra is Cuadro)
+                    {
+                        mensaje += "------ Datos del cuadro ------";
+                    }
+
+                    mensaje += "\n" + obra.ToString() + "\n\n";
                 }
             }
             return mensaje != "" ? mensaje : "\n\n¡ No se encontro ninguna obra de arte !\n\n";
         }
 
-        // Probar si anda
-        public void OrdenarObrasPorAnio()
+        public void OrdenarObrasPorAnioDeCreacion()
         {
             for (int i = 0; i < this.exposicion.Length; i++)
             {
@@ -131,8 +145,8 @@ namespace CentroCultural
                         if (this.exposicion[j].GetAnioCreacion() > this.exposicion[j + 1].GetAnioCreacion())
                         {
                             ObraDeArte aux = this.exposicion[j];
-                            this.exposicion[j + 1] = this.exposicion[j];
-                            this.exposicion[j] = aux;
+                            this.exposicion[j] = this.exposicion[j+1];
+                            this.exposicion[j+1] = aux;
                         }
                     }
                 }

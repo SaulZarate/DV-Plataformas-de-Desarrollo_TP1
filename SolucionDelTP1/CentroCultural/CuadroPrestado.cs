@@ -21,10 +21,9 @@ namespace CentroCultural
 
         public override String ToString()
         {
-            return "\nDatos del cuadro prestado:\n" +
-                "\nFecha de devolucion: " + this.fechaDeDevolucion + 
-                "\nNombre de la galeria: " + this.nombreGaleria 
-                + base.ToString();
+            return "Fecha de devolucion: " + this.fechaDeDevolucion + 
+                "\nNombre de la galeria: " + this.nombreGaleria +
+                "\n"+ base.ToString();
         }
     }
 }

@@ -76,21 +76,17 @@ namespace CentroCultural
         /* METODOS AGREGADOS */
         private void ordenarArtistasPorNombre()
         {
-            // Obtener los nombres de los artistas
+            // Guardar los nombres de los artistas en un array
             String[] nombres = this.obtenerNombresDeLosArtistas();
 
-            // Usar el metodo burbuja con el array de nombres y con CompareTo
-            String[] nombresOrdenados = this.ordenarArrayDeString(nombres);
-            foreach(String str in nombresOrdenados)
-            {
-                Console.WriteLine(str);
-            }
-            
+            // Ordeno la lista
+            Array.Sort(nombres);
+
             // Crear un objeto artistaExposicion
             List<Artista> artExp = new List<Artista>();
 
             // Llenarlo usando el array de nombres como iteracion
-            foreach(String nombre in nombresOrdenados)
+            foreach(String nombre in nombres)
             {
                 artExp.Add(this.RecuperarArtista(nombre));
             }
@@ -114,30 +110,7 @@ namespace CentroCultural
 
             return nombres;
         }
-        // REVISAR EL METODO DE ORDENAMIENTO
-        private String[] ordenarArrayDeString(String[] nombres)
-        {
-            int tamanioDelArray = nombres.Length;
-            String[] nombresOrdenados = nombres;
-
-            for (int i = 0; i < tamanioDelArray; i++)
-            {
-                for (int j = 0; j < tamanioDelArray - 1 ; j++)
-                {
-                    if (nombresOrdenados[j+1] != null)
-                    {
-                        if (nombresOrdenados[j].CompareTo(nombresOrdenados[j + 1]) < 0)
-                        {
-                            String aux = nombresOrdenados[j];
-                            nombresOrdenados[j] = nombresOrdenados[j + 1];
-                            nombresOrdenados[j] = aux;
-                        }
-                    }
-                }
-            }
-            return nombresOrdenados;
-        }
-
+        
         public String ObtenerTodosLosArtistas()
         {
             String mensaje = "";

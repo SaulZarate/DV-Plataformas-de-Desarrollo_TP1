@@ -28,7 +28,7 @@ namespace CentroCultural
 
         public override string ToString()
         {
-            return "\nDatos del artista: \n" +
+            return "\n------ Datos del artista ------" +
                 "\nNombre: " + this.nombre + 
                 "\nNacionalidad: " + this.nacionalidad + 
                 "\nFecha Nacimiento: " + fechaNacimiento.ToString("d") + 
