@@ -59,7 +59,7 @@ namespace CentroCultural
             return null;
         }
     
-        public ArtistasExposicion ArtistasNacionalidad( String nacionalidad )
+        public ArtistasExposicion ArtistasNacionalidad(String nacionalidad)
         {
             ArtistasExposicion artistasExposicion = new ArtistasExposicion();
 
