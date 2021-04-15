@@ -37,7 +37,7 @@ namespace CentroCultural
         }
         public override String ToString()
         {
-            return "\nCodigo: " + this.codigo + 
+            return "Codigo: " + this.codigo + 
                 "\nAño creacion: " + this.anioCreacion + 
                 "\nNombre de la Obra: " + this.nombre + 
                 "\nNombre Artista: " + this.nombreArtista + 

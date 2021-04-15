@@ -16,10 +16,9 @@ namespace CentroCultural
 
         public override String ToString()
         {
-            return "\nDatos del cuadro:\n" +
-                "\nBase: " + this.baseCuadro + 
+            return "Base: " + this.baseCuadro + 
                 "\nAltura: " + this.altura + 
-                base.ToString();
+                "\n" + base.ToString();
         }
 
     }

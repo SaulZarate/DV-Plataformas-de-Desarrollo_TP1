@@ -15,10 +15,9 @@ namespace CentroCultural
         }
         public override String ToString()
         {
-            return "\nDatos de la escultura:\n" +
-                "\nPeso: " + this.peso + 
+            return "Peso: " + this.peso + 
                 "\nVolumen: " + this.volumen + 
-                base.ToString();
+                "\n" + base.ToString();
         }
     }
 }
