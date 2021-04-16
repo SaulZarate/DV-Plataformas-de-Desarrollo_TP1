@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\eze_p\\.nuget\\packages\\": {}
+    "C:\\Users\\Gabriel\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Eze\\Analista de Sistemas DaVinci\\4to Cuatrimestre\\Plataformas de Desarrollo\\tp1\\CentroCultural\\ConsoleApp1\\TPExposiciones.csproj",
+      "projectUniqueName": "C:\\Users\\Gabriel\\source\\repos\\Grupo4.P.desarrollo-masterD\\Grupo4.P.desarrollo-master\\SolucionDelTP1\\CentroCultural\\TPExposiciones.csproj",
       "projectName": "TPExposiciones",
-      "projectPath": "E:\\Eze\\Analista de Sistemas DaVinci\\4to Cuatrimestre\\Plataformas de Desarrollo\\tp1\\CentroCultural\\ConsoleApp1\\TPExposiciones.csproj",
-      "packagesPath": "C:\\Users\\eze_p\\.nuget\\packages\\",
-      "outputPath": "E:\\Eze\\Analista de Sistemas DaVinci\\4to Cuatrimestre\\Plataformas de Desarrollo\\tp1\\CentroCultural\\ConsoleApp1\\obj\\",
+      "projectPath": "C:\\Users\\Gabriel\\source\\repos\\Grupo4.P.desarrollo-masterD\\Grupo4.P.desarrollo-master\\SolucionDelTP1\\CentroCultural\\TPExposiciones.csproj",
+      "packagesPath": "C:\\Users\\Gabriel\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Gabriel\\source\\repos\\Grupo4.P.desarrollo-masterD\\Grupo4.P.desarrollo-master\\SolucionDelTP1\\CentroCultural\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\eze_p\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Gabriel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

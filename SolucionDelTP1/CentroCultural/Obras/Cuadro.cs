@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ConsoleApp1
 {
-    class Cuadro : Obra
+    public class Cuadro : Obra
     {
 
         int baseCuadro;

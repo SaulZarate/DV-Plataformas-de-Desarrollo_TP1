@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ConsoleApp1
 {
-    class CuadroPrestado : Cuadro
+    public class CuadroPrestado : Cuadro
     {
         DateTime fechaDeDevolucion;
         String nombreGaleria;
@@ -13,6 +13,11 @@ namespace ConsoleApp1
         {
             this.fechaDeDevolucion = new DateTime(anioDevo, mesDevo, diaDevo);
             this.nombreGaleria = nombreGaleria;
+        }
+        public string getNombreGaleria()
+        {
+            return this.nombreGaleria;
+
         }
     }
 }

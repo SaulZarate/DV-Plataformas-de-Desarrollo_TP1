@@ -24,3 +24,29 @@ E:\Eze\Analista de Sistemas DaVinci\4to Cuatrimestre\Plataformas de Desarrollo\t
 E:\Eze\Analista de Sistemas DaVinci\4to Cuatrimestre\Plataformas de Desarrollo\tp1\CentroCultural\ConsoleApp1\obj\Debug\netcoreapp3.1\TPExposiciones.dll
 E:\Eze\Analista de Sistemas DaVinci\4to Cuatrimestre\Plataformas de Desarrollo\tp1\CentroCultural\ConsoleApp1\obj\Debug\netcoreapp3.1\TPExposiciones.pdb
 E:\Eze\Analista de Sistemas DaVinci\4to Cuatrimestre\Plataformas de Desarrollo\tp1\CentroCultural\ConsoleApp1\obj\Debug\netcoreapp3.1\TPExposiciones.genruntimeconfig.cache
+C:\Users\Gabriel\source\repos\Grupo4.P.desarrollo-masterD\Grupo4.P.desarrollo-master\SolucionDelTP1\CentroCultural\bin\Debug\netcoreapp3.1\TPExposiciones.exe
+C:\Users\Gabriel\source\repos\Grupo4.P.desarrollo-masterD\Grupo4.P.desarrollo-master\SolucionDelTP1\CentroCultural\bin\Debug\netcoreapp3.1\TPExposiciones.deps.json
+C:\Users\Gabriel\source\repos\Grupo4.P.desarrollo-masterD\Grupo4.P.desarrollo-master\SolucionDelTP1\CentroCultural\bin\Debug\netcoreapp3.1\TPExposiciones.runtimeconfig.json
+C:\Users\Gabriel\source\repos\Grupo4.P.desarrollo-masterD\Grupo4.P.desarrollo-master\SolucionDelTP1\CentroCultural\bin\Debug\netcoreapp3.1\TPExposiciones.runtimeconfig.dev.json
+C:\Users\Gabriel\source\repos\Grupo4.P.desarrollo-masterD\Grupo4.P.desarrollo-master\SolucionDelTP1\CentroCultural\bin\Debug\netcoreapp3.1\TPExposiciones.dll
+C:\Users\Gabriel\source\repos\Grupo4.P.desarrollo-masterD\Grupo4.P.desarrollo-master\SolucionDelTP1\CentroCultural\bin\Debug\netcoreapp3.1\TPExposiciones.pdb
+C:\Users\Gabriel\source\repos\Grupo4.P.desarrollo-masterD\Grupo4.P.desarrollo-master\SolucionDelTP1\CentroCultural\obj\Debug\netcoreapp3.1\TPExposiciones.csprojAssemblyReference.cache
+C:\Users\Gabriel\source\repos\Grupo4.P.desarrollo-masterD\Grupo4.P.desarrollo-master\SolucionDelTP1\CentroCultural\obj\Debug\netcoreapp3.1\TPExposiciones.AssemblyInfoInputs.cache
+C:\Users\Gabriel\source\repos\Grupo4.P.desarrollo-masterD\Grupo4.P.desarrollo-master\SolucionDelTP1\CentroCultural\obj\Debug\netcoreapp3.1\TPExposiciones.AssemblyInfo.cs
+C:\Users\Gabriel\source\repos\Grupo4.P.desarrollo-masterD\Grupo4.P.desarrollo-master\SolucionDelTP1\CentroCultural\obj\Debug\netcoreapp3.1\TPExposiciones.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\source\repos\Grupo4.P.desarrollo-masterD\Grupo4.P.desarrollo-master\SolucionDelTP1\CentroCultural\obj\Debug\netcoreapp3.1\TPExposiciones.dll
+C:\Users\Gabriel\source\repos\Grupo4.P.desarrollo-masterD\Grupo4.P.desarrollo-master\SolucionDelTP1\CentroCultural\obj\Debug\netcoreapp3.1\TPExposiciones.pdb
+C:\Users\Gabriel\source\repos\Grupo4.P.desarrollo-masterD\Grupo4.P.desarrollo-master\SolucionDelTP1\CentroCultural\obj\Debug\netcoreapp3.1\TPExposiciones.genruntimeconfig.cache
+C:\Users\eze_p\OneDrive\Escritorio\tp plataformas de desarrollo\Grupo4.P.desarrollo-menuCentro\SolucionDelTP1\CentroCultural\obj\Debug\netcoreapp3.1\TPExposiciones.csprojAssemblyReference.cache
+C:\Users\eze_p\OneDrive\Escritorio\tp plataformas de desarrollo\Grupo4.P.desarrollo-menuCentro\SolucionDelTP1\CentroCultural\obj\Debug\netcoreapp3.1\TPExposiciones.AssemblyInfoInputs.cache
+C:\Users\eze_p\OneDrive\Escritorio\tp plataformas de desarrollo\Grupo4.P.desarrollo-menuCentro\SolucionDelTP1\CentroCultural\obj\Debug\netcoreapp3.1\TPExposiciones.AssemblyInfo.cs
+C:\Users\eze_p\OneDrive\Escritorio\tp plataformas de desarrollo\Grupo4.P.desarrollo-menuCentro\SolucionDelTP1\CentroCultural\obj\Debug\netcoreapp3.1\TPExposiciones.csproj.CoreCompileInputs.cache
+C:\Users\eze_p\OneDrive\Escritorio\tp plataformas de desarrollo\Grupo4.P.desarrollo-menuCentro\SolucionDelTP1\CentroCultural\obj\Debug\netcoreapp3.1\TPExposiciones.dll
+C:\Users\eze_p\OneDrive\Escritorio\tp plataformas de desarrollo\Grupo4.P.desarrollo-menuCentro\SolucionDelTP1\CentroCultural\obj\Debug\netcoreapp3.1\TPExposiciones.pdb
+C:\Users\eze_p\OneDrive\Escritorio\tp plataformas de desarrollo\Grupo4.P.desarrollo-menuCentro\SolucionDelTP1\CentroCultural\bin\Debug\netcoreapp3.1\TPExposiciones.exe
+C:\Users\eze_p\OneDrive\Escritorio\tp plataformas de desarrollo\Grupo4.P.desarrollo-menuCentro\SolucionDelTP1\CentroCultural\bin\Debug\netcoreapp3.1\TPExposiciones.deps.json
+C:\Users\eze_p\OneDrive\Escritorio\tp plataformas de desarrollo\Grupo4.P.desarrollo-menuCentro\SolucionDelTP1\CentroCultural\bin\Debug\netcoreapp3.1\TPExposiciones.runtimeconfig.json
+C:\Users\eze_p\OneDrive\Escritorio\tp plataformas de desarrollo\Grupo4.P.desarrollo-menuCentro\SolucionDelTP1\CentroCultural\bin\Debug\netcoreapp3.1\TPExposiciones.runtimeconfig.dev.json
+C:\Users\eze_p\OneDrive\Escritorio\tp plataformas de desarrollo\Grupo4.P.desarrollo-menuCentro\SolucionDelTP1\CentroCultural\bin\Debug\netcoreapp3.1\TPExposiciones.dll
+C:\Users\eze_p\OneDrive\Escritorio\tp plataformas de desarrollo\Grupo4.P.desarrollo-menuCentro\SolucionDelTP1\CentroCultural\bin\Debug\netcoreapp3.1\TPExposiciones.pdb
+C:\Users\eze_p\OneDrive\Escritorio\tp plataformas de desarrollo\Grupo4.P.desarrollo-menuCentro\SolucionDelTP1\CentroCultural\obj\Debug\netcoreapp3.1\TPExposiciones.genruntimeconfig.cache

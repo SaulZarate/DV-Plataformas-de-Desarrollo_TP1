@@ -15,8 +15,16 @@ namespace ConsoleApp1
             fechaFallecimiento = new DateTime(anioFallecimiento, mesFallecimiento, diaFallecimiento);
         }
 
-       
-       public override string ToString()
+        public Artista(string nombre, string nacionalidad, int anioNacimiento, int mesNacimiento, int diaNacimiento)
+        {
+            this.nombre = nombre;
+            this.nacionalidad = nacionalidad;
+            fechaNacimiento = new DateTime(anioNacimiento, mesNacimiento, diaNacimiento);
+            
+        }
+
+
+        public override string ToString()
         {
             return "Datos del artista: \n" + "Nombre: " + nombre + "\nNacionalidad: " + nacionalidad + "\nFecha Nacimiento: " + fechaNacimiento.ToString("d") + "\nFecha Fallecimiento: " + fechaFallecimiento.ToString("d");
         }

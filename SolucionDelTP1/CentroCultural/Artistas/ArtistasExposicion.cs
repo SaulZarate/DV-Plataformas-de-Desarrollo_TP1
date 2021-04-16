@@ -6,7 +6,18 @@ namespace ConsoleApp1
     public class ArtistasExposicion
     {
 
-        Artista[] artistas = new Artista[1];
+
+
+        Artista[] artistas;
+
+        public Artista[] getArtistas()
+        {
+            return artistas;
+        }
+        public ArtistasExposicion(int cantidadArtistas)
+        {
+            artistas = new Artista[cantidadArtistas];
+        }
 
         public void insertarArtista(Artista artista)
         {
@@ -71,7 +82,7 @@ namespace ConsoleApp1
         public string artistaNac(String nac)
         {
             Artista[] artistasEncontrados = new Artista[10];
-            int i =0;
+            
 
             foreach (Artista arti in artistas)
             {
@@ -93,6 +104,20 @@ namespace ConsoleApp1
                 }
             }
             return artistas.Length;
+        }
+
+        public bool estaLlena()
+        {
+            bool estaLlena = true;
+            for(int i = 0; i <= artistas.Length; i++)
+            {
+                if (artistas[i] == null)
+                {
+                    estaLlena = false;
+                }
+            }
+
+            return estaLlena;
         }
 
     }

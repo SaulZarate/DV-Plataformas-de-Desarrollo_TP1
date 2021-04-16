@@ -14,6 +14,7 @@ namespace ConsoleApp1
         {
          
         }
+   
 
         public ObrasExposicion(int capacidadMaximaDeObras)
         {
@@ -55,7 +56,7 @@ namespace ConsoleApp1
 
         public String recuperarObra(Obra obra)
         {
-            if (recuperoObra(obra) != null) { 
+            if (recuperoObra(obra.codigo) != null) { 
                 return "Se recupera la obra "+obra.nombre;
             }
             return "No se encuentra la obra";
@@ -76,18 +77,19 @@ namespace ConsoleApp1
             }
             return obrasArtista;
         }
+        
 
         public Obra cuadrosPrestados()
         {
             return exposicion[0];
         }
-        public Obra recuperoObra(Obra obra)
+        public Obra recuperoObra(int codigo)
         {
             foreach (Obra obras in exposicion)
             {
-                if (obras.getCodigo() == obra.getCodigo())
+                if (obras.getCodigo() == codigo)
                 {
-                    return obra;
+                    return obras;
                 }
             }
             return null;
@@ -99,6 +101,16 @@ namespace ConsoleApp1
                 }
             }
             return true;
+        }
+        public List<CuadroPrestado> buscarPorCuadroPrestado()
+        {
+            List<CuadroPrestado> cPrestados=new List<CuadroPrestado>();
+            foreach(CuadroPrestado cuadroPrestado in exposicion)
+            {
+                cPrestados.Add(cuadroPrestado);
+            }
+            return cPrestados;
+
         }
 
         
