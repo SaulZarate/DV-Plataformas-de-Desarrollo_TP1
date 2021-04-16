@@ -24,3 +24,16 @@ F:\Rodrigo\Documents\dev\davinci\davinci-c4-plat-desarollo\DV-Plataformas-de-Des
 F:\Rodrigo\Documents\dev\davinci\davinci-c4-plat-desarollo\DV-Plataformas-de-Desarrollo_TP1\SolucionDelTP1\CentroCultural\obj\Release\netcoreapp3.1\CentroCultural.dll
 F:\Rodrigo\Documents\dev\davinci\davinci-c4-plat-desarollo\DV-Plataformas-de-Desarrollo_TP1\SolucionDelTP1\CentroCultural\obj\Release\netcoreapp3.1\CentroCultural.pdb
 F:\Rodrigo\Documents\dev\davinci\davinci-c4-plat-desarollo\DV-Plataformas-de-Desarrollo_TP1\SolucionDelTP1\CentroCultural\obj\Release\netcoreapp3.1\CentroCultural.genruntimeconfig.cache
+C:\Users\PC 345\Source\Repos\DV-Plataformas-de-Desarrollo_TP1\SolucionDelTP1\CentroCultural\bin\Release\netcoreapp3.1\CentroCultural.exe
+C:\Users\PC 345\Source\Repos\DV-Plataformas-de-Desarrollo_TP1\SolucionDelTP1\CentroCultural\bin\Release\netcoreapp3.1\CentroCultural.deps.json
+C:\Users\PC 345\Source\Repos\DV-Plataformas-de-Desarrollo_TP1\SolucionDelTP1\CentroCultural\bin\Release\netcoreapp3.1\CentroCultural.runtimeconfig.json
+C:\Users\PC 345\Source\Repos\DV-Plataformas-de-Desarrollo_TP1\SolucionDelTP1\CentroCultural\bin\Release\netcoreapp3.1\CentroCultural.runtimeconfig.dev.json
+C:\Users\PC 345\Source\Repos\DV-Plataformas-de-Desarrollo_TP1\SolucionDelTP1\CentroCultural\bin\Release\netcoreapp3.1\CentroCultural.dll
+C:\Users\PC 345\Source\Repos\DV-Plataformas-de-Desarrollo_TP1\SolucionDelTP1\CentroCultural\bin\Release\netcoreapp3.1\CentroCultural.pdb
+C:\Users\PC 345\Source\Repos\DV-Plataformas-de-Desarrollo_TP1\SolucionDelTP1\CentroCultural\obj\Release\netcoreapp3.1\CentroCultural.csprojAssemblyReference.cache
+C:\Users\PC 345\Source\Repos\DV-Plataformas-de-Desarrollo_TP1\SolucionDelTP1\CentroCultural\obj\Release\netcoreapp3.1\CentroCultural.AssemblyInfoInputs.cache
+C:\Users\PC 345\Source\Repos\DV-Plataformas-de-Desarrollo_TP1\SolucionDelTP1\CentroCultural\obj\Release\netcoreapp3.1\CentroCultural.AssemblyInfo.cs
+C:\Users\PC 345\Source\Repos\DV-Plataformas-de-Desarrollo_TP1\SolucionDelTP1\CentroCultural\obj\Release\netcoreapp3.1\CentroCultural.csproj.CoreCompileInputs.cache
+C:\Users\PC 345\Source\Repos\DV-Plataformas-de-Desarrollo_TP1\SolucionDelTP1\CentroCultural\obj\Release\netcoreapp3.1\CentroCultural.dll
+C:\Users\PC 345\Source\Repos\DV-Plataformas-de-Desarrollo_TP1\SolucionDelTP1\CentroCultural\obj\Release\netcoreapp3.1\CentroCultural.pdb
+C:\Users\PC 345\Source\Repos\DV-Plataformas-de-Desarrollo_TP1\SolucionDelTP1\CentroCultural\obj\Release\netcoreapp3.1\CentroCultural.genruntimeconfig.cache

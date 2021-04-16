@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC 345\\source\\repos\\TrabajoPractico1\\SolucionDelTP1\\AgenciaDeViajes\\AgenciaDeViajes.csproj",
+      "projectUniqueName": "C:\\Users\\PC 345\\Source\\Repos\\DV-Plataformas-de-Desarrollo_TP1\\SolucionDelTP1\\AgenciaDeViajes\\AgenciaDeViajes.csproj",
       "projectName": "AgenciaDeViajes",
-      "projectPath": "C:\\Users\\PC 345\\source\\repos\\TrabajoPractico1\\SolucionDelTP1\\AgenciaDeViajes\\AgenciaDeViajes.csproj",
+      "projectPath": "C:\\Users\\PC 345\\Source\\Repos\\DV-Plataformas-de-Desarrollo_TP1\\SolucionDelTP1\\AgenciaDeViajes\\AgenciaDeViajes.csproj",
       "packagesPath": "C:\\Users\\PC 345\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC 345\\source\\repos\\TrabajoPractico1\\SolucionDelTP1\\AgenciaDeViajes\\obj\\",
+      "outputPath": "C:\\Users\\PC 345\\Source\\Repos\\DV-Plataformas-de-Desarrollo_TP1\\SolucionDelTP1\\AgenciaDeViajes\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PC 345\\AppData\\Roaming\\NuGet\\NuGet.Config",
